@@ -1,13 +1,11 @@
-
-import React, { Component } from 'react';
 import '../styles/styles.css';
 import backArrow from '../assets/icons/back-arrow.png'
 import downloadButton from '../assets/icons/download-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
 
 
-class EmailToolbar extends Component {
-    render() {
+const EmailToolbar=()=>{
+    
         return (<nav className="email-toolbar">
             <ul>
                 <li>
@@ -27,6 +25,6 @@ class EmailToolbar extends Component {
                 <button>&gt;</button>
             </div>
         </nav>)
-    }
+    
 }
 export default EmailToolbar;

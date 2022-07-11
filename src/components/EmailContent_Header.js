@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
 import '../styles/styles.css';
 
 import backArrow from '../assets/icons/back-arrow.png'
 import rateStarButton from '../assets/icons/rate-star-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
 
-class EmailContent_Header extends Component {
-    render() {
+const EmailContent_Header=()=>{
+
         return (<header className="email-content--header">
             <div className="avatar"></div>
             <div className="email-info">
@@ -45,6 +44,6 @@ class EmailContent_Header extends Component {
                 </ul>
             </div>
         </header>)
-    }
+    
 }
 export default EmailContent_Header;
